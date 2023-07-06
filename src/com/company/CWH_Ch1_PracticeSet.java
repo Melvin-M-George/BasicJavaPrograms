@@ -36,6 +36,8 @@ public class CWH_Ch1_PracticeSet {
         System.out.println("Enter the number");
         System.out.println(sc.hasNextInt());
 
+        System.out.println("This is done by melvin");
+
 
 
     }

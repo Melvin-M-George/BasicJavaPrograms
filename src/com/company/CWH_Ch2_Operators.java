@@ -3,7 +3,7 @@ package com.company;
 public class CWH_Ch2_Operators {
     public static void main(String[] args) {
         //1.Arithmetic operators
-        int a = 4;
+        //int a = 4;
 //        int b = 6 % a; //Modulo Operator
         //2.Assignment operators
         int b = 9;

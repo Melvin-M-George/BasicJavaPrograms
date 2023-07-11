@@ -10,7 +10,5 @@ public class CWH_16_Conditionals {
             else{
                 System.out.println("You don't get drivers license");
             }
-
         }
-
 }

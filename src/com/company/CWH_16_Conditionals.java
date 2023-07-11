@@ -1,7 +1,6 @@
 package com.company;
 
 public class CWH_16_Conditionals {
-
         public static void main(String[] args) {
             int age = 16;
             boolean cond = (age==18);

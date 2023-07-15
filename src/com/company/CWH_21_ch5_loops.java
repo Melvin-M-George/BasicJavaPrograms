@@ -8,9 +8,10 @@ public class CWH_21_ch5_loops {
             i++;
         }
         System.out.println("Finish running while loop");
-//        while(true){
-//            System.out.println("This is an infinite while loop!");
-//        }
+        while(true){
+            System.out.println("This is an infinite while loop!");
+        }
+
 
 
     }

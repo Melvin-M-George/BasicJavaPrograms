@@ -38,6 +38,34 @@ public class CWH_25_PS_loops {
 //        }
 
         //Question-5
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int factorial = 1;
+//        if(n==0){
+//            System.out.println("0!= 1");
+//        }
+//        else {
+//            for(int i =1;i<=n;i++) {
+//                factorial = factorial*i;
+//
+//            }
+//            System.out.printf("%d factorial is %d",n,factorial);
+//
+//        }
+
+        //Question-6
+//        int n=3;
+//        int i = 1;
+//        int factorial = 1;
+//        while (i<=n){
+//            factorial = factorial *i;
+//            i++;
+//        }
+//        System.out.println(factorial);
+
+        //Question-7
+
+
 
 
     }

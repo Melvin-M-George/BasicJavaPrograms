@@ -63,9 +63,15 @@ public class CWH_25_PS_loops {
 //        }
 //        System.out.println(factorial);
 
-        //Question-7
+        //Question-9
 
-
+//        int n = 8;
+//        int sum =0;
+//        for(int i=1;i<=10;i++) {
+//            System.out.printf("%d x %d = %d\n", i, n, i * n);
+//            sum = sum + (i*n);
+//        }
+//        System.out.println("sum is :"+ sum);
 
 
     }

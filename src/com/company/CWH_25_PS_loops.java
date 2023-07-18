@@ -21,13 +21,24 @@ public class CWH_25_PS_loops {
 //        System.out.print(sum);
 
         //Question-3
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for(int i=0;i<=10;i++){
-            System.out.print(i+"x"+n+"=");
-            System.out.println(i*n);
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        for(int i=0;i<=10;i++){
+//            System.out.print(i+"x"+n+"=");
+//            System.out.println(i*n);
+//
+//        }
 
-        }
+        //Question-4
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        for(int i=10;i>0;i--) {
+//            System.out.printf("%d x %d = %d\n",i,n,i*n);
+//
+//        }
+
+        //Question-5
+
 
     }
 }

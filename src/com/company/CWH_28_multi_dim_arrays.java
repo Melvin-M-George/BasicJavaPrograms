@@ -1,6 +1,6 @@
 package com.company;
 
-public class CWH_multi_dim_arrays {
+public class CWH_28_multi_dim_arrays {
     public static void main(String[] args) {
         int [] marks;    //1D Array
         int [][] flats = new int[2][3]; //2D Array

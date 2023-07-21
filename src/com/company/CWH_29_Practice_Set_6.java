@@ -14,7 +14,7 @@ public class CWH_29_Practice_Set_6 {
         for(int i = 0;i< marks.length;i++){
             sum1 = sum1 + marks[i];
         }
-        System.out.println("The sum elements in the array is: "+sum1);
+        System.out.println("The sum elements in the array is: "+ sum1);
 
          */
         //Question-2

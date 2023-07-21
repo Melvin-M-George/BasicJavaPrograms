@@ -33,7 +33,27 @@ public class CWH_29_Practice_Set_6 {
             System.out.printf("The number %d is present in the array",num);
         }
         else {
-            System.out.printf("The number %d is not present in the array",num);
+            System.out.printf("The number %d is not present in the array", num);
         }
+
+            //OR
+            /*
+            for(int element: marks){
+                if(num==element){
+                    num_present=true;
+                    break;
+                }
+            }
+            if(num_present){
+                System.out.printf("The number %d is present in the array",num);
+            }
+            else {
+                System.out.printf("The number %d is not present in the array",num);
+
+            }
+
+             */
+
+
     }
 }

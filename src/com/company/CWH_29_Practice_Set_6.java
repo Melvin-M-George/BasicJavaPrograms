@@ -57,6 +57,7 @@ public class CWH_29_Practice_Set_6 {
 
              */
         //Question-3
+
         /*
         float [] marks_physics = {98.5f,98.0f,97.5f,96.0f,95.5f};
         float sum = 0;

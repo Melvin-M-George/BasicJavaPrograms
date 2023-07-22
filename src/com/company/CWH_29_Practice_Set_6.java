@@ -18,6 +18,7 @@ public class CWH_29_Practice_Set_6 {
 
          */
         //Question-2
+        /*
         int [] marks = {99,98,97,96,95};
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -35,6 +36,8 @@ public class CWH_29_Practice_Set_6 {
         else {
             System.out.printf("The number %d is not present in the array", num);
         }
+
+         */
 
             //OR
             /*
@@ -54,6 +57,17 @@ public class CWH_29_Practice_Set_6 {
 
              */
         //Question-3
+        /*
+        float [] marks_physics = {98.5f,98.0f,97.5f,96.0f,95.5f};
+        float sum = 0;
+        for(float element: marks_physics){
+            sum = sum + element;
+        }
+        System.out.println("The average marks of students in physics is: "+(sum/5));
+
+         */
+
+        //Question-4
 
 
 

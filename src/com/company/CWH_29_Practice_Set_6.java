@@ -64,7 +64,7 @@ public class CWH_29_Practice_Set_6 {
         for(float element: marks_physics){
             sum = sum + element;
         }
-        System.out.println("The average marks of students in physics is: "+(sum/5));
+        System.out.println("The average marks of 5 students in physics is: "+(sum/5));
 
          */
 

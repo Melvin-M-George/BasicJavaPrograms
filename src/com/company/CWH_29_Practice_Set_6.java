@@ -64,11 +64,14 @@ public class CWH_29_Practice_Set_6 {
         for(float element: marks_physics){
             sum = sum + element;
         }
-        System.out.println("The average marks of 5 students in physics is: "+(sum/5));
+        System.out.println("The average marks of 5 students in physics is: "+(sum/marks_physics.length));
 
          */
 
         //Question-4
+        int [][] mat1 = {{1,2,3},{4,5,6}};
+        int [][] mat2 = {{1,6,3},{6,5,8}};
+        int [][] result = {{0,0,0},{0,0,0}};
 
 
 

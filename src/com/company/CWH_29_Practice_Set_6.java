@@ -117,14 +117,14 @@ public class CWH_29_Practice_Set_6 {
 
          */
         //Efficient method
-        int [] arr ={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18};
+        int [] arr ={5,1,9,4,8};
         System.out.print("The initial array is: ");
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
-        int [] rev_arr = new int[18];
+        int [] rev_arr = new int[5];
         for(int i=0;i< arr.length;i++){
-            rev_arr[i]=arr.length-i;
+            rev_arr[i]=arr[arr.length-i-1];
         }
         System.out.println("");
         System.out.print("The reversed array is:");

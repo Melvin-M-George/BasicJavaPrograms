@@ -95,6 +95,32 @@ public class CWH_29_Practice_Set_6 {
 
          */
 
+        //Question-5
+        /*
+
+        int [] arr = {1,2,3,4,5};
+        System.out.print("The initial array is:");
+        for (int i=0;i< arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+        int [] reverse_arr = new int[5];
+        reverse_arr[0]=arr[4];
+        reverse_arr[1]=arr[3];
+        reverse_arr[2]=arr[2];
+        reverse_arr[3]=arr[1];
+        reverse_arr[4]=arr[0];
+        System.out.println("");
+        System.out.print("The reversed array is:");
+        for (int i=0;i< reverse_arr.length;i++){
+            System.out.print(reverse_arr[i]+" ");
+        }
+
+         */
+        //Efficient method
+
+
+
+
 
     }
 }

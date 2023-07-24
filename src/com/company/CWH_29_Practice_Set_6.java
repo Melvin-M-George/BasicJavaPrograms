@@ -179,10 +179,10 @@ public class CWH_29_Practice_Set_6 {
             }
         }
         if(isSorted){
-            System.out.println("The array is sorted");
+            System.out.println("The Array is sorted");
         }
         else{
-            System.out.println("the array is not sorted");
+            System.out.println("The Array is not sorted");
         }
 
 

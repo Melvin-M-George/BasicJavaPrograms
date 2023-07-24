@@ -122,16 +122,18 @@ public class CWH_29_Practice_Set_6 {
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
-        int [] rev_arr = new int[5];
-        for(int i=0;i< arr.length;i++){
-            rev_arr[i]=arr[arr.length-i-1];
+        int n = Math.floorDiv(arr.length, 2);
+        int temp;
+        for(int i=0;i<n;i++){
+            temp = arr[i];
+            arr[i] = arr[arr.length-i-1];
+            arr[arr.length-i-1] = temp;
         }
         System.out.println("");
         System.out.print("The reversed array is:");
-        for (int i=0;i< rev_arr.length;i++){
-            System.out.print(rev_arr[i]+" ");
+        for (int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
         }
-
 
 
 

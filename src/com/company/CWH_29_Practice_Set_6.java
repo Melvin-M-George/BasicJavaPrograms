@@ -171,12 +171,18 @@ public class CWH_29_Practice_Set_6 {
          */
         //Question-8
         boolean isSorted = true;
-        int[] arr ={1,4,3,2,6,8};
-        for(int i=0;i<arr.length;i++){
+        int[] arr ={1,2,3,4,5,6,7};
+        for(int i=0;i<arr.length-1;i++){
             if(arr[i]>arr[i+1]){
                 isSorted=false;
                 break;
             }
+        }
+        if(isSorted){
+            System.out.println("The array is sorted");
+        }
+        else{
+            System.out.println("the array is not sorted");
         }
 
 

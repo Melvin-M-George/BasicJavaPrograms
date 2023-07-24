@@ -117,6 +117,7 @@ public class CWH_29_Practice_Set_6 {
 
          */
         //Efficient method
+        /*
         int [] arr ={5,1,9,4,8};
         System.out.print("The initial array is: ");
         for (int i=0;i<arr.length;i++){
@@ -134,6 +135,38 @@ public class CWH_29_Practice_Set_6 {
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
+
+         */
+
+        //Question-6
+        /*
+        int [] arr = {111,23,35,41,253};
+        int max =0;
+//        for(int i=0;i< arr.length;i++){
+//            if(arr[i]>max){
+//                max = arr[i];
+//            }
+//        }
+        for(int element:arr){
+            if(element>max){
+                max = element;
+            }
+        }
+        System.out.println(max);
+
+         */
+
+
+        //Question-7
+        int [] arr = {23,5,-67,34,1,4};
+        int min = Integer.MAX_VALUE;
+        for (int element:arr){
+            if(element<min){
+                min = element;
+            }
+        }
+        System.out.println(min);
+
 
 
 

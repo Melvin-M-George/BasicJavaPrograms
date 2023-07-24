@@ -158,6 +158,7 @@ public class CWH_29_Practice_Set_6 {
 
 
         //Question-7
+        /*
         int [] arr = {23,5,-67,34,1,4};
         int min = Integer.MAX_VALUE;
         for (int element:arr){
@@ -166,6 +167,18 @@ public class CWH_29_Practice_Set_6 {
             }
         }
         System.out.println(min);
+
+         */
+        //Question-8
+        boolean isSorted = true;
+        int[] arr ={1,4,3,2,6,8};
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>arr[i+1]){
+                isSorted=false;
+                break;
+            }
+        }
+
 
 
 

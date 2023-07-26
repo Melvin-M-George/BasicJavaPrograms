@@ -5,14 +5,17 @@ public class CWH_32_method_overloading {
         System.out.println("Good Morning!");
     }
 
-    static int sum(int a,int b){
+    int sum(int a,int b){
         return a+b;
     }
 
 
     public static void main(String[] args) {
         sayGoodMorning();
-        int c = sum(4,3);
+        CWH_32_method_overloading obj = new CWH_32_method_overloading();
+        int x = 2;
+        int y = 3;
+        int c = obj.sum(x,y);
         System.out.println(c);
     }
 }

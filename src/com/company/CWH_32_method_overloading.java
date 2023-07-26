@@ -47,7 +47,7 @@ public class CWH_32_method_overloading {
         //Method Overloading
         foo();
         foo(10);
-        foo(10,15);
+        foo(10,15);// Arguments are Actual
 
 
     }

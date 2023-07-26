@@ -1,7 +1,7 @@
 package com.company;
 
 public class CWH_31_methods {
-    static int logic(int x ,int y){
+     int logic(int x ,int y){
         int z;
         if(x>y){
             z=x+y;
@@ -12,10 +12,11 @@ public class CWH_31_methods {
         return z;
     }
     public static void main(String[] args) {
+        //        int c = logic(a,b);
+        int a = 10;
+        int b = 6;
         CWH_31_methods obj = new CWH_31_methods();
-        int c = obj.logic(3,4);
-
-//        int c = logic(1,6);
+        int c = obj.logic(a,b);
         System.out.println(c);
 
     }

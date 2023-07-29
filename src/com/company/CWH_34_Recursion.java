@@ -26,8 +26,8 @@ public class CWH_34_Recursion {
     }
     public static void main(String[] args) {
         int x=5;
-        System.out.println("The factorial value of is:" + factorial(x) );
-        System.out.println("The factorial value of is:" + factorial_Iterative(x) );
+        System.out.println("The factorial value of is: " + factorial(x) );
+        System.out.println("The factorial value of is: " + factorial_Iterative(x) );
 
     }
 }

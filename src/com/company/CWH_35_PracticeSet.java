@@ -5,6 +5,5 @@ public class CWH_35_PracticeSet {
     }
     public static void main(String[] args) {
 
-
     }
 }

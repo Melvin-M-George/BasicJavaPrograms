@@ -17,6 +17,7 @@ public class CWH_05_TakingInput {
         System.out.println("The sum of these numbers is");
         System.out.println(sum);
 
+
 //        boolean b1 = sc.hasNextInt();
  //       System.out.println(b1);
  //       String str = sc.next();
